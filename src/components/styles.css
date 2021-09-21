@@ -1,0 +1,164 @@
+.navBtn:hover {
+    background-color: rgb(66, 66, 66);
+    border-radius: .25rem;
+}
+
+.navBtn:focus {
+    background-color: rgb(66, 66, 66);
+    border-radius: .25rem;
+}
+
+.phrase {
+    font-size: 3rem;
+}
+
+.centered {
+    padding: 10px;
+    margin: 8rem;
+    margin-left: 19rem;
+    margin-right: 19rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.service {
+    width: 600px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.visita__galeria {
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background: rgb(184, 184, 184);
+    border: 0;
+}
+
+.visita__galeria:hover {
+    background: rgb(143, 143, 143);
+}
+
+.serviceMa {
+    width: 340px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.nosotros {
+    position: relative;
+    text-align: center;
+    height: 300px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.nosotros h1 {
+    position: absolute;
+    font-size: 7.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.nosotros img {
+    filter: brightness(30%);
+    height: 320px;
+    z-index: 2;
+}
+.contact__info {
+    border-radius: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .phrase {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .phrase {
+        font-size: 1rem;
+    }
+    .centered {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .service {
+        width: 400px;
+    }
+    .nosotros h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+    .phrase {
+        font-size: 2rem;
+    }
+    .centered {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .service {
+        width: 350px;
+    }
+}
+
+@media (max-width: 544px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .logo {
+        width: 150px;
+    }
+    .phrase {
+        font-size: 1rem;
+    }
+    .centered {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .service {
+        width: 350px;
+    }
+    .serviceMa {
+        width: 250px;
+    }
+    .nosotros h1 {
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 324px) {
+    .logo {
+        width: 150px;
+    }
+    .service {
+        width: 300px;
+    }
+    .nosotros h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+
+@media (min-width: 950px) and (max-width:1100px) {
+    .phrase {
+        font-size: 2.75rem;
+    }
+}
